@@ -34,7 +34,7 @@ module.exports = {
         },
         },
         animation: {
-        'openMenu': 'openEffect 0.9s linear',
+        'openMenu': 'openEffect 0.5s linear',
         'closeMenu': 'closeEffect 1s linear',
         }, 
     },
