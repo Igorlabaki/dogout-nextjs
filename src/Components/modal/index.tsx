@@ -7,11 +7,11 @@ export interface propsAuthModal {
   text: string;
   character: string;
   ballon: string;
-  isMenuOpen: boolean;
+  animation: boolean;
 }
 
 export function ModalComponent({
-  isMenuOpen,
+  animation,
   onClose,
   text,
   character,
@@ -35,7 +35,7 @@ export function ModalComponent({
           border-none  lg:pt-[2.5rem] lg:pb-[2.5rem]`}
         >
           <div
-            className={`${!isMenuOpen && "animate-closeMenu"}
+            className={`${animation ? "animate-closeMenu" : null}
           w-[90%] h-[67%] md:h-[600px] md:w-[600px] bg-gray-pattern border-[10px] border-purple-pattern animate-openMenu  rounded-lg flex justify-ends items-end relative`}
           >
             <div className="h-[90%] w-[50%] md:w-[200px] md:ml-[20px]">

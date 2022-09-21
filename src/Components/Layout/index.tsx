@@ -15,7 +15,13 @@ export default function LayoutComponent({ children }: LayoutProps) {
       className="h-full min-h-screen w-full font-bold flex flex-col bg-mobile bg-no-repeat 
     bg-center bg-cover lg:bg-web font-pt-sans"
     >
-      <HeaderComponent image={"/images/Kids/Logo.png"} />
+      <HeaderComponent
+        image={
+          router.asPath === "/"
+            ? "/images/homePage/Logo.png"
+            : "/images/Kids/Logo.png"
+        }
+      />
       <div className="flex-1">{children}</div>
       <FooterComponent />
     </div>

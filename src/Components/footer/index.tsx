@@ -8,10 +8,10 @@ import { IconComponent } from "./icon";
 export function FooterComponent() {
   return (
     <div className="flex flex-col justify-center w-full mt-10">
-      <p className="w-full m-auto text-center text-white font-light mb-10">
-        Conect with us:
+      <p className="w-full m-auto text-center text-white text-[20px] font-light mb-5">
+        Connect with us:
       </p>
-      <div className="flex gap-3 justify-center items-center m-auto mb-12">
+      <div className="flex gap-7 justify-center items-center m-auto mb-12">
         <IconComponent
           icon={<FaFacebookF size={30} />}
           href={"https://www.facebook.com/wedugut/"}

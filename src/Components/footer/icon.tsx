@@ -10,7 +10,7 @@ export function IconComponent({ icon, href, hiddenMobile }: IconProps) {
   return (
     <a
       className={`${hiddenMobile ? "hidden md:flex" : "flex"}
-      h-[40px] w-[40px] bg-white  justify-center items-center rounded-full`}
+      h-[50px] w-[50px] bg-white  justify-center items-center rounded-full`}
       href={href}
       target="_blank"
       rel="noreferrer"

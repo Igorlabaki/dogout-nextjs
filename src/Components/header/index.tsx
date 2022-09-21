@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import React from "react";
 
 interface PropsHeader {
@@ -6,9 +7,10 @@ interface PropsHeader {
 }
 
 export function HeaderComponent({ image }: PropsHeader) {
+  const router = useRouter();
   return (
     <header className="w-full h-[50px] bg-black ">
-      <div className="px-5 py-1 lg:w-[50%] m-auto flex justify-between items-center">
+      <div className="px-5 py-1 lg:w-[60%] m-auto flex justify-between items-center">
         <div className="h-[40px] w-[160px] relative">
           <Image
             src={image}
