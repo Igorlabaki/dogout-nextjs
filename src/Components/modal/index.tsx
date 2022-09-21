@@ -41,11 +41,11 @@ export function ModalComponent({
               <img src={ballon} alt="character" className="w-full h-full" />
             </div>
 
-            <div className="w-[150px] md:w-[300px] font-light text-justify text-[16px] translate-y-[-10px] md:translate-y-[-130px]">
+            <div className="w-[120px] md:w-[300px] font-light text-justify text-[13px] translate-y-[-10px] md:translate-y-[-130px]">
               <p>{text}</p>
               <Button
                 title={"Play"}
-                className={`bg-pink-pattern w-full py-2 rounded-lg text-white font-semibold mt-32`}
+                className={`bg-pink-pattern w-full py-2 rounded-lg text-white font-semibold mt-10`}
                 onClick={() => onClose()}
               />
             </div>
