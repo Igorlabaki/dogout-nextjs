@@ -13,7 +13,7 @@ export default function HomePageComponent() {
       <div className="flex justify-center items-center flex-wrap animate-openMenu">
         <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
           <Image
-            src={"/images/homePage/action.png "}
+            src={"/images/homePage/action.png"}
             alt="Action"
             layout="fill"
             objectFit="contain"
@@ -21,7 +21,7 @@ export default function HomePageComponent() {
         </div>
         <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
           <Image
-            src={"/images/homePage/friends.png "}
+            src={"/images/homePage/friends.png"}
             alt="Friends"
             layout="fill"
             objectFit="contain"
